@@ -613,3 +613,17 @@ svg {
   -webkit-animation: fill-ani 2s ease-in 3s backwards;
           animation: fill-ani 2s ease-in 3s backwards;
 }
+
+.cartel {
+	position: absolute;
+	top: 50%;
+	left: 80%;
+	transform: translate(-50%, -50%);
+	font-size: 24px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 20px;
+	border-radius: 10px;
+ }
